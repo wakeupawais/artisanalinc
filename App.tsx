@@ -91,7 +91,7 @@ const App: React.FC = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="hidden md:block fixed bottom-10 left-auto right-6 flex items-center gap-4 text-zinc-600 mono text-xs uppercase tracking-widest animate-bounce">
+        <div className="hidden md:flex fixed bottom-10 left-auto right-6 flex items-center gap-4 text-zinc-600 mono text-xs uppercase tracking-widest animate-bounce">
           <div className="w-[1px] h-12 bg-zinc-800" />
           Scroll to Explore
         </div>
